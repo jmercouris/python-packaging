@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "packageB"
+version = "0.0.1"
+dependencies = [ "packageA==0.0.1" ]
+description = ""
+readme = "README.md"
+requires-python = ">=3.1"
